@@ -19,10 +19,8 @@ const renderContacts = () => {
             `
             ul.appendChild(li)
         })
-
         div.appendChild(ul)
     } 
-
     else {
         div.innerHTML = '<p>You have no contacts in your address book</p>'
     }
@@ -32,6 +30,20 @@ const renderContacts = () => {
 document.addEventListener('DOMContentLoaded', () => {
     renderContacts()
     const contactForm = document.getElementById('new-contact-form')
+   
+    //toggle visibility of 'Add Contact'Button
+    const toggleFormVisibilityButton = document.getElementById('add-contact')
+    contactForm.style.display = 'none'
+    toggleFormVisibilityButton.addEventListener('click', () => {
+        if (contactForm.style.display === '') {
+            contactForm.style.display = 'none'
+        }
+        else {
+            contactForm.style.display = ''
+        }
+    })
+
+    //Save and Store functionality
     contactForm.addEventListener('submit', event => {
         event.preventDefault()
 
