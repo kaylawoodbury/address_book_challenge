@@ -9,5 +9,22 @@
 <body>
     <h1>Contacts</h1>
     <button id="add-contact">Add Contact</button>
+    <form id="new-contact-form">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone">
+        <label for="company">Company</label>
+        <input type="text" name="company" id="company">
+        <label for="notes">Notes</label>
+        <textarea name="notes" id="notes" type="text"></textarea>
+        <label for="twitter">Twitter</label>
+        <input type="text" name="twitter" id="twitter">
+        <input type="submit" value="Save Contact" id="submit">
+    </form>
+    <div id="contact-list"></div>
+    <script src="/assets/js/app.js"></script>
 </body>
 </html>
