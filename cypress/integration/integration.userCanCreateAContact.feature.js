@@ -6,7 +6,7 @@
 */
 
 describe('user can create a contact', () => {
-    beforeEach('test', () => {
+    before('test', () => {
         cy.visit('http://localhost:3001')
         cy.get('#add-contact').click()
         cy.get('#name').type('Kayla')

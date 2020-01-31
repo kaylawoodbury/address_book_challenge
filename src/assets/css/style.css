@@ -1,56 +1,121 @@
-body {
+html {
+    margin:0;
+    background-image: url(leather-address-book.jpg);   
+    
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-color: rgba(216, 216, 216, 0.712);  
+}
+
+body {font-family: "Comic Sans MS", cursive, sans-serif;
+        margin: auto;
+        margin-top: 400px;
+        margin-bottom: 10px;
+        width: 70%;
+        border: 3px solid rgb(91, 62, 107);
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+        color: rgb(91, 62, 107);
+        background-color: white;
+   
+}
+
+form {
     font-family: "Comic Sans MS", cursive, sans-serif;
-    margin: auto;
-    margin-top: 25px;
-    background-color: lighsteelblue;
-    width: 40%;
-    border: 10px solid black;
-    padding: 10px;
-    text-align: center;
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+        text-align: center;
+        color: rgb(91, 62, 107);
+        background-color: white;
+}
+
+.contact-list {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    background-color:rgba(228, 228, 228, 0.692);
+    color: black;
+    border: 3px solid rgb(91, 62, 107);
+    border-radius: 5px;
+    height: auto;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
 }
 
 input[type="text"]{
-    width: 100%;
-    padding: 12px 1px;
-    margin: 10px 0;
-    display: inline-block;
-    border: 5px solid rgb(0,0,0);
+    width: 50%;
+    padding: 5px 1px;
+    margin: 8px 10px; 
+    border: 2px solid rgb(91, 62, 107);
     border-radius: 6px;
     box-sizing: border-box;
+    display: inline-block ;
+
 }
 
-input [type="email"]{
-    width: 100%;
-    padding: 12px 1px;
-    margin: 10px 0;
-    display: inline-block;
-    border: 5px solid rgb(0,0,0);
+input[type="email"]{
+    width: 50%;
+    padding: 5px 1px;
+    margin: 8px 10px;
+    border: 2px solid rgb(91, 62, 107);
     border-radius: 6px;
     box-sizing: border-box;
-    font-size: 12px;
-    background-color: lighsteelblue;
+    display: inline-block;
 }
 
 textarea[type="text"] {
-    width: 100%;
-    padding: 12px 1px;
-    margin: 10px 0;
-    display: inline-block;
-    border: 5px solid rgb(0,0,0);
+    width: 50%;
+    padding: 5px 1px;
+    margin: 8px 10px;
+    border: 2px solid rgb(91, 62, 107);
     border-radius: 8px;
     box-sizing: border-box;
+    text-align: left;
+    display: inline-block;
 }
 
-button {
+.remove {
     margin-bottom: 10px;
-    background-color: rgb(218,53,53);
-    border: solid;
-    color: rgb(66, 117, 211);
+    background-color: rgb(91, 62, 107);
+    border: 1px solid;
+    color: rgb(228, 228, 228);
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.addcontact{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 24px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(91, 62, 107);
+    background-color: rgb(228, 228, 228);
+    transition: .3s ease;
+}
+
+
+.submit{
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid;
+    color:  rgb(91, 62, 107);
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 10px;
-}
 
+}
