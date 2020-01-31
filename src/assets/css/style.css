@@ -10,57 +10,71 @@ html {
 body {font-family: "Comic Sans MS", cursive, sans-serif;
         margin: auto;
         margin-top: 400px;
+        margin-bottom: 10px;
         width: 70%;
         border: 3px solid rgb(91, 62, 107);
-        border-radius: 10px;
+        border-radius: 8px;
         padding: 10px;
         text-align: center;
         color: rgb(91, 62, 107);
-        background-color: rgba(203, 208, 221, 0.836);
+        background-color: white;
    
 }
 
-
+form {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+        text-align: center;
+        color: rgb(91, 62, 107);
+        background-color: white;
+}
 
 .contact-list {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 16px;
-    background-color:rgb(228, 228, 228);
+    background-color:rgba(228, 228, 228, 0.692);
     color: black;
     border: 3px solid rgb(91, 62, 107);
     border-radius: 5px;
     height: auto;
     text-align: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
 }
 
 input[type="text"]{
     width: 50%;
-    padding: 10px 1px;
-    margin: 10px 0;
-    display: inline-block;
-    border: 5px solid rgb(91, 62, 107);
+    padding: 5px 1px;
+    margin: 8px 10px; 
+    border: 2px solid rgb(91, 62, 107);
     border-radius: 6px;
     box-sizing: border-box;
+    display: inline-block ;
+
 }
 
-input [type="email"]{
-    width: 100%;
-    padding: 12px 1px;
-    margin: 10px 0;
-    display: inline-block;
-    border: 5px solid rgb(91, 62, 107);
+input[type="email"]{
+    width: 50%;
+    padding: 5px 1px;
+    margin: 8px 10px;
+    border: 2px solid rgb(91, 62, 107);
     border-radius: 6px;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 textarea[type="text"] {
-    width: 100%;
-    padding: 12px 1px;
-    margin: 10px 0;
-    display: inline-block;
-    border: 5px solid rgb(91, 62, 107);
+    width: 50%;
+    padding: 5px 1px;
+    margin: 8px 10px;
+    border: 2px solid rgb(91, 62, 107);
     border-radius: 8px;
     box-sizing: border-box;
+    text-align: left;
+    display: inline-block;
 }
 
 .remove {
@@ -77,12 +91,12 @@ textarea[type="text"] {
 }
 
 .addcontact{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 40px;
+    padding: 12px 24px;
     display: block;
     text-align: center;
     border-radius: 5px;
