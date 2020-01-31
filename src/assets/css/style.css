@@ -1,33 +1,44 @@
-html body {
-    background-color: rgb(240, 219, 206);
+html {
+    margin:0;
+    background-image: url(leather-address-book.jpg);   
+    
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-color: rgba(216, 216, 216, 0.712);  
 }
 
-body {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    margin: auto;
-    margin-top: 25px;
-    background-color: lighsteelblue;
-    width: 50%;
-    border: 3px solid rgb(63, 47, 38);
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
+body {font-family: "Comic Sans MS", cursive, sans-serif;
+        margin: auto;
+        margin-top: 400px;
+        width: 70%;
+        border: 3px solid rgb(91, 62, 107);
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        color: rgb(91, 62, 107);
+        background-color: rgba(203, 208, 221, 0.836);
+   
 }
+
+
 
 .contact-list {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 16px;
-    background-color:rgb(158, 134, 121);
+    background-color:rgb(228, 228, 228);
     color: black;
-    border: 3px solid rgb(63, 47, 38);
+    border: 3px solid rgb(91, 62, 107);
+    border-radius: 5px;
+    height: auto;
+    text-align: left;
 }
 
 input[type="text"]{
-    width: 100%;
-    padding: 12px 1px;
+    width: 50%;
+    padding: 10px 1px;
     margin: 10px 0;
     display: inline-block;
-    border: 5px solid rgb(0,0,0);
+    border: 5px solid rgb(91, 62, 107);
     border-radius: 6px;
     box-sizing: border-box;
 }
@@ -37,7 +48,7 @@ input [type="email"]{
     padding: 12px 1px;
     margin: 10px 0;
     display: inline-block;
-    border: 5px solid rgb(0,0,0);
+    border: 5px solid rgb(91, 62, 107);
     border-radius: 6px;
     box-sizing: border-box;
 }
@@ -47,22 +58,22 @@ textarea[type="text"] {
     padding: 12px 1px;
     margin: 10px 0;
     display: inline-block;
-    border: 5px solid rgb(0,0,0);
+    border: 5px solid rgb(91, 62, 107);
     border-radius: 8px;
     box-sizing: border-box;
 }
 
 .remove {
     margin-bottom: 10px;
-    background-color: rgba(247, 231, 217, 0.925);
-    border: 2px solid;
-    color: rgb(116, 86, 70);
-    padding: 10px 10px;
+    background-color: rgb(91, 62, 107);
+    border: 1px solid;
+    color: rgb(228, 228, 228);
+    padding: 6px 6px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    border-radius: 10px;
+    font-size: 13px;
+    border-radius: 5px;
 }
 
 .addcontact{
@@ -75,17 +86,17 @@ textarea[type="text"] {
     display: block;
     text-align: center;
     border-radius: 5px;
-    color: rgb(116, 86, 70);
-    background-color: rgba(247, 231, 217, 0.925);
+    color: rgb(91, 62, 107);
+    background-color: rgb(228, 228, 228);
     transition: .3s ease;
 }
 
 
 .submit{
     margin-bottom: 10px;
-    background-color: rgba(247, 231, 217, 0.925);
-    border: 2px solid;
-    color:  rgb(116, 86, 70);
+    background-color: white;
+    border: 1px solid;
+    color:  rgb(91, 62, 107);
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
