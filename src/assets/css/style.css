@@ -1,12 +1,25 @@
+html body {
+    background-color: rgb(240, 219, 206);
+}
+
 body {
     font-family: "Comic Sans MS", cursive, sans-serif;
     margin: auto;
     margin-top: 25px;
     background-color: lighsteelblue;
-    width: 40%;
-    border: 10px solid black;
+    width: 50%;
+    border: 3px solid rgb(63, 47, 38);
+    border-radius: 10px;
     padding: 10px;
     text-align: center;
+}
+
+.contact-list {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    background-color:rgb(158, 134, 121);
+    color: black;
+    border: 3px solid rgb(63, 47, 38);
 }
 
 input[type="text"]{
@@ -27,8 +40,6 @@ input [type="email"]{
     border: 5px solid rgb(0,0,0);
     border-radius: 6px;
     box-sizing: border-box;
-    font-size: 12px;
-    background-color: lighsteelblue;
 }
 
 textarea[type="text"] {
@@ -41,11 +52,11 @@ textarea[type="text"] {
     box-sizing: border-box;
 }
 
-button {
+.remove {
     margin-bottom: 10px;
-    background-color: rgb(218,53,53);
-    border: solid;
-    color: rgb(66, 117, 211);
+    background-color: rgba(247, 231, 217, 0.925);
+    border: 2px solid;
+    color: rgb(116, 86, 70);
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
@@ -54,3 +65,32 @@ button {
     border-radius: 10px;
 }
 
+.addcontact{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(116, 86, 70);
+    background-color: rgba(247, 231, 217, 0.925);
+    transition: .3s ease;
+}
+
+
+.submit{
+    margin-bottom: 10px;
+    background-color: rgba(247, 231, 217, 0.925);
+    border: 2px solid;
+    color:  rgb(116, 86, 70);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+
+}

@@ -15,8 +15,24 @@ const renderContacts = () => {
             li.innerHTML = `
                 <span>${contact.name}</span> |
                 <span>${contact.email}</span> |
-                <span>${contact.phone}</span> 
-            `
+                <span>${contact.phone}</span> |
+                <span>${contact.notes}</span>
+                <button id="remove" button class="remove" data-email=${contact.email}>Remove</button>
+                `;  
+          
+                // Adds a remove button next to each added contact
+                let buttons = li.querySelectorAll(".remove");
+                buttons.forEach(button => {
+                  button.addEventListener("click", () => {
+                    var contacts = JSON.parse(localStorage.contacts);
+                    let newContacts = contacts.filter(
+                      contact => contact.email !== event.target.dataset.email
+                    );
+                    storage.setItem("contacts", JSON.stringify(newContacts));
+                    renderContacts();
+                  });
+                });
+
             ul.appendChild(li)
         })
         div.appendChild(ul)
